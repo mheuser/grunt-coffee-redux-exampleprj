@@ -1,0 +1,40 @@
+{
+  "name": "grunt-coffee-redux-exampleprj",
+  "description": "Example Project with the grunt-coffee-redux plugin.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mheuser/grunt-coffee-redux-exampleprj",
+  "author": {
+    "name": "Moritz Heuser",
+    "url": "https://github.com/mheuser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mheuser/grunt-coffee-redux-exampleprj.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mheuser/grunt-coffee-redux-exampleprj/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mheuser/grunt-coffee-redux/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.coffee",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-coffee-redux": "0.2.0-rc1",
+    "grunt-contrib-clean": "~0.4.0rc5",
+    "grunt": "~0.4.0rc5",
+    "grunt-contrib-watch": "~0.1.4"
+  },
+  "keywords": [
+    "grunt example"
+  ]
+}
